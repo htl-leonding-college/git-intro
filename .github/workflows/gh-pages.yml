@@ -43,7 +43,7 @@ jobs:
           slides_main_adoc_file: asciidocs-slides/index
           slides_skip_asciidoctor_build: true
       - name: install tree
-        run: apt install tree
+        run: sudo apt install tree
       - name: show tree
         run: tree -f
           
