@@ -3,3 +3,10 @@
     border: 0;
     box-shadow: none;
 }
+.font-smaller {
+    font-size: smaller;
+}
+.font-larger {
+    font-size: larger;
+}
+
