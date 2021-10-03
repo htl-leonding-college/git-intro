@@ -12,8 +12,9 @@ docker run --rm \
            asciidoctor/docker-asciidoctor:1.11.0 asciidoctor-revealjs \
            -r asciidoctor-diagram \
            -a icons=font \
+           -a experimental=true \
            -a revealjs_theme=white \
-           -a source-highlighter=rouge \
+           -a source-highlighter=highlightjs \
            -a imagesdir=images \
            -a revealjsdir=revealjs \
            -a revealjs_slideNumber=c/t \
