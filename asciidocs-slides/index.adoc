@@ -6,7 +6,7 @@
 :revdate: {docdate}
 :revremark: Initial Release for AHS presentation
 :encoding: utf-8
-:lang: en
+:lang: de
 :imagesdir: images
 :doctype: article
 :icons: font
@@ -23,6 +23,10 @@
 ** Datenbanken
 ** Programmieren
 ** Projektentwicklung
+* Projekte
+** https://cloud.htl-leonding.ac.at/[LeoCloud, window="_blank"]
+** 3D-Avatar Leonie
+** https://vm81.htl-leonding.ac.at[YouTrack-Instanz, window="_blank"]
 
 [.column]
 * Technologien
@@ -33,37 +37,144 @@
 ** doc-as-code (Asciidoctor)
 ** IoT
 
-== Centralized VCS
+== Gründe für VCS
+
+* VCS ... https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control[Version Control Systems, window="_blank"]
+* Keine Daten gehen verloren, auch ältere Programmversionen stets verfügbar
+* Zentralisiertes Code-Repository für Programmier-Teams
+* Geordnetes Erstellen von Programmvarianten (Branches)
+* u.v.m.
+
+== Git for Schools
+
+
+* https://education.github.com/[GitHub Education, window="_blank"]
+** https://education.github.com/pack[GitHub for Students, window="_blank"]
+** https://education.github.com/toolbox[GitHub for Teachers, window="_blank"]
+** https://classroom.github.com/classrooms[GitHub Classroom, window="_blank"]
+** https://education.github.com/schools[GitHub Campus Partner Schools, window="_blank"]
+* https://support.atlassian.com/bitbucket-cloud/docs/what-are-the-guidelines-for-academic-licenses/[Bitbucket Academic License, window="_blank"]
+* https://about.gitlab.com/solutions/education/[GitLab for Education, window="_blank"]
+
+[%notitle]
+[.columns.is-vcentered]
+=== GitHub Pro
+
+[.column, height=600]
+image::github-profile.png[]
+
+[.column]
+* Benefits
+** GitHub Pro
+** swag
+
+[%notitle]
+=== gh-pages in Private Repos
+
+image::github-ghpages-in-private-repos.png[background, size="cover"]
+
+[.notes]
+--
+* Im eigenen Repo (ohne Organization) funktioniert es
+* Eine Organization gilt als eigener User, daher gibt es keine education Rabatte
+--
+
+
+
+
+[%notitle]
+=== GitHub Campus Program
+
+image::github-partner-map-title.png[background, size="cover"]
+
+
+[.columns]
+== Git vs GitHub
+
+[.column]
+* Technology
+** https://git-scm.com/[git, window="_blank"]
+
+[.column]
+* Provider / Hoster
+** https://github.com/[github, window="_blank"]
+** https://bitbucket.org[bitbucket, window="_blank"]
+** https://about.gitlab.com/[gitlab, window="_blank"]
+** self-hosted (ie gitlab)
+** ...
+
+=== Centralized VCS
 
 [plantuml, centralized-vcs, png, width=300]
 ----
 include::plantuml/centralized-vcs.puml[]
 ----
 
-== Distributed VCS
+=== Distributed VCS
 
 [plantuml, distributed-vcs, png, width=600]
 ----
 include::plantuml/distributed-vcs.puml[]
 ----
 
-== Git vs GitHub
 
-* Technology
-** git
 
-* Provider / Hoster
-** github
-** bitbucket
-** gitlab
-** self-hosted (ie gitlab)
-** ...
+== git Workflow
+
+image::git-workflow.png[]
+
+
+
+
+=== Create a Local Repo
+
+[source,bash,highlight=3]
+----
+mkdir my-first-repo
+cd my-first-repo
+git init
+ls -a
+tree -f .git # für Finder: open .git
+rm -rf .git  # -> beim prompt verschwindet die git info
+git init
+----
+
+[.notes]
+--
+* Verwendung von oh-my-zsh für Anzeige der git-info
+--
+
+
+=== Add Files to Local Repo
+
+https://htl-leonding-college.github.io/git-lecture-notes/#_a_first_commit[A first Commit, window="_blank"]
+
+=== Create Remote Repo
+
+* Config GitHub Authentification
+* Create Repo in GitHub
+* Connect your local folder to the github-repo
+
+=== Authenticate to Remote Repo
+
+* https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token[Access Token, window="_blank"]
+* ssh (https://www.heise.de/tipps-tricks/SSH-Key-fuer-GitHub-Repositories-einrichten-4627459.html[SSH-Key für GitHub-Repositories einrichten, window="_blank"])
+
+=== Push to Remote Repo
+
 
 
 
 == Links
 
-*
+[.font-smaller]
+* gh-pages: https://htl-leonding-college.github.io/git-intro-slides[window="_blank"]
+* github-repo: https://github.com/htl-leonding-college/git-intro-slides[window="_blank"]
+* https://bit.ly/htl-leonding[Der Stützpunkt, window="_blank"]
+* https://git-scm.com/book/de/v2[Online Git-Buch, window="_blank"]
+* https://htl-leonding-college.github.io/git-lecture-notes/
+* https://codewithmosh.com/[Code with Mosh (Aktionen abwarten), window="_blank"]
+* https://www.udemy.com/[Udemy (Aktionen abwarten), window="_blank"]
 
 ////
 
