@@ -1,4 +1,134 @@
-= Demo-Presentation1
+= git - Grundlagen
+:customcss: css/presentation.css
+:author: Thomas W. Stütz
+:email: t.stuetz@htl-leonding.ac.at
+:revnumber: 1.0
+:revdate: {docdate}
+:revremark: Initial Release for AHS presentation
+:encoding: utf-8
+:lang: en
+:imagesdir: images
+:doctype: article
+:icons: font
+//:revealjs_parallaxBackgroundImage: background-landscape-light-orange.jpg
+//:revealjs_parallaxBackgroundSize: 4936px 2092px
+
+//:numbered:
+
+[.columns]
+== Zur Person
+
+[.column]
+* Gegenstände
+** Datenbanken
+** Programmieren
+** Projektentwicklung
+
+[.column]
+* Technologien
+** Java / JakartaEE / Quarkus
+** Android (Kotlin)
+** Docker, k8s
+** git / github
+** doc-as-code (Asciidoctor)
+** IoT
+
+== Centralized VCS
+
+[plantuml, centralized-vcs, png, width=300]
+----
+include::plantuml/centralized-vcs.puml[]
+----
+
+== Distributed VCS
+
+[plantuml, distributed-vcs, png, width=600]
+----
+include::plantuml/distributed-vcs.puml[]
+----
+
+== Git vs GitHub
+
+* Technology
+** git
+
+* Provider / Hoster
+** github
+** bitbucket
+** gitlab
+** self-hosted (ie gitlab)
+** ...
+
+
+
+== Links
+
+*
+
+////
+
+
+== Distributed VCS
+
+image::distributed-vcs.png[background, size=contain]
+
+== My first slide
+
+* Topic 1
+* Topic 2
+
+[%notitle]
+== Third Slide
+
+[.stretch]
+image:https://images.pexels.com/photos/3966425/pexels-photo-3966425.jpeg[VW]
+
+== 4th Slide
+
+[.stretch]
+image:https://images.pexels.com/photos/3966425/pexels-photo-3966425.jpeg[VW]
+
+[%notitle]
+== 5th Slide
+
+image:https://images.pexels.com/photos/3966425/pexels-photo-3966425.jpeg[VW]
+
+[%notitle]
+== 5th Slide
+
+image::https://images.pexels.com/photos/3966425/pexels-photo-3966425.jpeg[background, VW]
+
+[%notitle]
+== maxed_image
+
+[.maxed-image]
+image::https://images.pexels.com/photos/3966425/pexels-photo-3966425.jpeg[VW]
+
+[%notitle]
+== 5th Slide
+
+image::https://images.pexels.com/photos/3966425/pexels-photo-3966425.jpeg[background, size=cover, opacity=0.5]
+
+== Image Role Right [alt syntax]
+
+[.right]
+image::https://images.pexels.com/photos/3966425/pexels-photo-3966425.jpeg[alt text,width=400px]
+
+* Yup
+* That
+* Too
+
+
+
+
+// https://raw.githubusercontent.com/asciidoctor/asciidoctor-reveal.js/master/examples/images.adoc
+
+// https://zenika.github.io/adoc-presentation-model/reveal/reveal-my-asciidoc.html
+
+
+// https://asciidoctor-revealjs-examples.netlify.app/
+
+
 Thomas W. Stütz
 1.0, 2020-08-22
 ifndef::sourcedir[:sourcedir: ../src/main/java]
@@ -24,6 +154,7 @@ type: String
 @enduml
 ----
 
+[%notitle]
 == Third Slide
 
 image:https://images.pexels.com/photos/3966425/pexels-photo-3966425.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940[VW]
@@ -31,3 +162,6 @@ image:https://images.pexels.com/photos/3966425/pexels-photo-3966425.jpeg?auto=co
 == Fourth Slide
 
 IMPORTANT: Something very important
+
+
+////
