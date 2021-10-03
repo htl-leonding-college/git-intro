@@ -193,6 +193,17 @@ image::github-my-first-repo-2.png[background, size="cover"]
 
 
 
+== Pull Requests
+
+* Wofür?
+** für Teams mit Senior- und Junior-Developers
+** bei open-source-Projekten
+* Wie?
+** Projekt clonen
+** Änderungen vornehmen
+** Pull Request beantragen
+** Pull Request annehmen oder ablehnen
+
 
 == Links
 
