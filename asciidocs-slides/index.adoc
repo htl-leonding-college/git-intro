@@ -15,9 +15,11 @@
 
 //:numbered:
 
+
 [.columns]
 == Zur Person
 
+[.text-smaller]
 [.column]
 * Gegenstände
 ** Datenbanken
@@ -25,9 +27,11 @@
 ** Projektentwicklung
 * Projekte
 ** https://cloud.htl-leonding.ac.at/[LeoCloud, window="_blank"]
-** 3D-Avatar Leonie
+** https://htblaleonie.github.io[3D-Avatar Leonie, window="_blank"]
 ** https://vm81.htl-leonding.ac.at[YouTrack-Instanz, window="_blank"]
+** https://franklyn.htl-leonding.ac.at/[Franklyn-Server, window="_blank"]
 
+[.text-smaller]
 [.column]
 * Technologien
 ** Java / JakartaEE / Quarkus
@@ -71,7 +75,7 @@ image::github-profile.png[]
 [%notitle]
 === gh-pages in Private Repos
 
-image::github-ghpages-in-private-repos.png[background, size="cover"]
+image::github-ghpages-in-private-repos.png[background, size="contain"]
 
 [.notes]
 --
@@ -147,20 +151,45 @@ git init
 
 === Add Files to Local Repo
 
-https://htl-leonding-college.github.io/git-lecture-notes/#_a_first_commit[A first Commit, window="_blank"]
+https://htl-leonding-college.github.io/git-lecture-notes/#_a_first_commit[Demo - A first commit, window="_blank"]
 
 === Create Remote Repo
 
-* Config GitHub Authentification
-* Create Repo in GitHub
+[%step]
+* Config github authentification
+* Create repo in github
 * Connect your local folder to the github-repo
+
+
+
 
 === Authenticate to Remote Repo
 
 * https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token[Access Token, window="_blank"]
 * ssh (https://www.heise.de/tipps-tricks/SSH-Key-fuer-GitHub-Repositories-einrichten-4627459.html[SSH-Key für GitHub-Repositories einrichten, window="_blank"])
 
+
+
+
+[%notitle]
+=== Create Remote Repo
+
+image::github-create-repo.png[background, size="cover"]
+
+
+
+[%notitle]
 === Push to Remote Repo
+
+image::github-my-first-repo.png[background, size="cover"]
+
+
+
+
+[%notitle]
+=== my-first-repo
+
+image::github-my-first-repo-2.png[background, size="cover"]
 
 
 
@@ -170,11 +199,12 @@ https://htl-leonding-college.github.io/git-lecture-notes/#_a_first_commit[A firs
 [.font-smaller]
 * gh-pages: https://htl-leonding-college.github.io/git-intro-slides[window="_blank"]
 * github-repo: https://github.com/htl-leonding-college/git-intro-slides[window="_blank"]
-* https://bit.ly/htl-leonding[Der Stützpunkt, window="_blank"]
+* https://bit.ly/htl-leonding[der stützpunkt, window="_blank"]
 * https://git-scm.com/book/de/v2[Online Git-Buch, window="_blank"]
 * https://htl-leonding-college.github.io/git-lecture-notes/
-* https://codewithmosh.com/[Code with Mosh (Aktionen abwarten), window="_blank"]
-* https://www.udemy.com/[Udemy (Aktionen abwarten), window="_blank"]
+* https://codewithmosh.com/[Code with Mosh (Aktion abwarten), window="_blank"]
+* https://www.udemy.com/[Udemy (Aktion abwarten), window="_blank"]
+
 
 ////
 
